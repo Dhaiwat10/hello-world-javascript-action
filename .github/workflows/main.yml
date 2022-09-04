@@ -15,3 +15,5 @@ jobs:
         run: echo "The time was ${{ steps.hello.outputs.time }}"
       - name: dummy-timer
         uses: Dhaiwat10/typescript-action-template@v0.2
+        with:
+          milliseconds: 1000
